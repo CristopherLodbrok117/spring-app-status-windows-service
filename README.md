@@ -191,16 +191,12 @@ The funniest part has come. Let's test our applications. For this example we're 
 ![delete champions](https://github.com/CristopherLodbrok117/spring-app-status-windows-service/blob/cd60ec1a89f0ca2f347bfe56d26e8b511dbc6e7f/screenshots/12%20-%20Delete%20all%20champions.png)
 
 
-5. Let's check the terminal log to see some internal messages. The backup service checks every 5 seconds the database state and restores it once the corruption is detected.
+5. Now we can list our champions again and they look exactly the same as the last update. But if you want to play and you are fast enough, you can send a delete request and list all the champions immediately to see if it returns an empty list, before the restoration (remember that you have at most five seconds):
 
-![restore log](https://github.com/CristopherLodbrok117/spring-app-status-windows-service/blob/cd60ec1a89f0ca2f347bfe56d26e8b511dbc6e7f/screenshots/13%20-%20restored%20champions%20automatically.png)
+![list restored champions](https://github.com/CristopherLodbrok117/spring-app-status-windows-service/blob/c459f3110bfcd87928988088b0fa570e214ce191/screenshots/13%20-%20restored%20champions%20automatically.png)
 
-6. Now we can list our champions again and they look exactly the same as the last update. But if you want to play and you are fast enough, you can send a delete request and list all the champions immediately to see if it returns an empty list, before the restoration (remember that you have at most five seconds):
+6. We shut down our service and as we can see it's not available until we start it again:
 
-![list restored champions](https://github.com/CristopherLodbrok117/api-deployment-as-windows-service/blob/6a8dce7e206fd87db8201e57b4e1e75de4dea903/Screenshots/13%20-%20restored%20champions%20automatically.png)
-
-7. We shut down our service and as we can see it's not available until we start it again:
-
-![service shutdown](https://github.com/CristopherLodbrok117/api-deployment-as-windows-service/blob/6a8dce7e206fd87db8201e57b4e1e75de4dea903/Screenshots/14%20-%20service%20down.png)
+![service shutdown](https://github.com/CristopherLodbrok117/spring-app-status-windows-service/blob/c459f3110bfcd87928988088b0fa570e214ce191/screenshots/14%20-%20service%20down.png)
 
 
