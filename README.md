@@ -180,7 +180,7 @@ The funniest part has come. Let's test our applications. For this example we're 
 
 2. Save a new champion:
 
-![cave champion](https://github.com/CristopherLodbrok117/spring-app-status-windows-service/blob/cd60ec1a89f0ca2f347bfe56d26e8b511dbc6e7f/screenshots/10%20-%20Save%20new%20Champion.png)
+![save champion](https://github.com/CristopherLodbrok117/spring-app-status-windows-service/blob/a0efe5d4579815cfa6f4225e3dd9d36dc43b1c88/screenshots/10%20-%20Save%20Champion.png)
 
 3. List the champions with the new one (a backup is made after every update):
 
